@@ -1,2 +1,2 @@
-public class Bejegyzes {
+public class Bejegyzes1 {
 }
