@@ -1,3 +1,5 @@
+package hu.petrik.helloworld_14s;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
@@ -38,7 +40,7 @@ public class Bejegyzes {
 
 
     public void like(){
-
+        this.likeok++;
     }
 
 
