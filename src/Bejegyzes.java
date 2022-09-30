@@ -45,7 +45,12 @@ public class Bejegyzes {
     @Override
     public String toString() {
 
-        return String.format("szerzo: liekok: letrejott\n"
+        return String.format("szerzo - liekok - letrejott\n",
+                "Szerkesztve: szerkesztes",
+                "tartalom",
+                this.szerzo,this.likeok,this.letrejott,
+                this.szerkesztve,
+                this.tartalom
 
         );
     }
