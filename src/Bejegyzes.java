@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Bejegyzes {
@@ -20,32 +21,33 @@ public class Bejegyzes {
 
     }
 
-    public String getSzerzo() {
-        return szerzo;
-    }
+    public String getSzerzo() {return szerzo;}
 
-    public String getTartalom() {
-        return tartalom;
-    }
+    public String getTartalom() {return tartalom;}
 
     public void setTartalom(String tartalom) {
+        LocalDate maiDatum = LocalDate.now();
         this.tartalom = tartalom;
     }
 
-    public int getLikeok() {
-        return likeok;
-    }
+    public int getLikeok() {return likeok;}
 
-    public LocalDateTime getLetrejott() {
-        return letrejott;
-    }
+    public LocalDateTime getLetrejott() {return letrejott;}
 
-    public LocalDateTime getSzerkesztve() {
-        return szerkesztve;
-    }
+    public LocalDateTime getSzerkesztve() {return szerkesztve;}
+
 
     public void like(){
 
+    }
+
+
+    @Override
+    public String toString() {
+
+        return String.format("szerzo: liekok: letrejott\n"
+
+        );
     }
 }
 
